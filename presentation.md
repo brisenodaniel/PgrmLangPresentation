@@ -1,4 +1,4 @@
-#Haskell Language
+# Haskell Language
 What is Haskell?
 * Completley functional language
 * Static typing with type inference 
