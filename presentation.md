@@ -62,13 +62,19 @@ Their precense, however, make Haskell much more Lambda-y... since they re-enforc
 ```haskell
 \x -> x+1
 ```
-Why would we want this? In theory, we could also do something like:
+Why would we want this? In theory, we could do something like:
 ```haskell
 func a = \a ->(x+1)
 ```
 But thats overkill and a little stupid. So what's the point? Observe:
 ```haskell
 map (\x -> (x + 90)/2) [20,30,40,50,60,70,80,90]
+```
+versus
+```haskell
+aveByNinty :: Double -> Double
+aveByNinty a = (a + 90)/2
+map aveByNinty [20,30,40,50,60,70,80,90]
 ```
 
 ## Type Declarations:
