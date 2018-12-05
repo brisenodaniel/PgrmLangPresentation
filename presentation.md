@@ -90,6 +90,7 @@ data Time = Date {Day :: Int,
                   Year :: Int}
 ```
 ## Method Behind the Madness
+A simple and rather trivial implementation of a BST in C++
 ```c++
 using namespace std;
 
@@ -790,6 +791,7 @@ void BST<T>::printTree(TreeNode<T> *node)
 *End BST Implementation
 **/
 ```
+Now the same, but in the contorted, wordy and needlessly convoluted Haskell Language:
 
 ```haskell
     data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)  
