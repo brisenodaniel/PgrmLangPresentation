@@ -53,7 +53,7 @@ map :: (a->b) -> [a] -> [b]
 map f [] = []
 map f a:as = (f a) : as
 ```
-##Lambda Terms
+## Lambda Terms
 As if Haskell wasn't mathy enough, it has a component which is almost pure lambda calculus... aptly named lambda terms:
 
 ```haskell
