@@ -5,6 +5,7 @@ What is Haskell?
 * Can do anything that an imperative language can do
     * But like any language, it's better at some things than others
 * Absolutely nothing like you've ever seen before
+    * You can decide if that's good or bad
 
 ## Types
 As mentioned before, Haskell is  Statically typed like C++ or Java, but the way that types are used in Haskell is very different than in any C-ish language.
