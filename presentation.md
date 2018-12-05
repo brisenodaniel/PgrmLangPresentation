@@ -17,7 +17,7 @@ int num;
 float num_2 = 9;
 int *list = new int[30];
 
-int squred (int a )
+int squared (int a )
 {
     return a*a;
 }
