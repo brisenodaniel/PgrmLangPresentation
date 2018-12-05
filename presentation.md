@@ -64,7 +64,7 @@ Their precense, however, make Haskell much more Lambda-y... since they re-enforc
 ```
 Why would we want this? In theory, we could do something like:
 ```haskell
-func a = \a ->(x+1)
+func a = \a ->(a+1)
 ```
 But thats overkill and a little stupid. So what's the point? Observe:
 ```haskell
