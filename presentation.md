@@ -52,7 +52,7 @@ In Haskell, as in lamba calculus, EVERYTHING  is an expression (except for the t
 ```haskell
 map :: (a->b) -> [a] -> [b]
 map f [] = []
-map f a:as = (f a) : as
+map f a:as = (f a) : $ map f as
 ```
 ## Lambda Terms
 They're kinda like lambda calculus... but only slightly more so than Haskell as a whole in my fair opinion.
