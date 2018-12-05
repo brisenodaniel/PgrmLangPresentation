@@ -47,7 +47,7 @@ float ave (float a, float b){
 ave :: Float -> Float -> Float
 ave a b = (a + b )/2
 ```
-In Haskell, as in lamba calculus, EVERYTHING  is an expression (except for the things that arn't... which are few and far between so I won't be going into them now).
+In Haskell, as in lamba calculus, EVERYTHING  is an expression (except for the things that aren't... which are few and far between so I won't be going into them now).
 
 ```haskell
 map :: (a->b) -> [a] -> [b]
