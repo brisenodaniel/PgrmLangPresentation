@@ -68,13 +68,13 @@ func a = \a ->(a+1)
 ```
 But thats overkill and a little stupid. So what's the point? Observe:
 ```haskell
-map (\x -> (x + 90)/2) [20,30,40,50,60,70,80,90]
+map ((\x y -> (x + y)/2) 80) [20,30,40,50,60,70,80,90]
 ```
 versus
 ```haskell
-aveByNinty :: Double -> Double
-aveByNinty a = (a + 90)/2
-map aveByNinty [20,30,40,50,60,70,80,90]
+ave :: Double -> Double
+ave a b = (a + b)/2
+map (ave 80) [20,30,40,50,60,70,80,90]
 ```
 
 ## Type Declarations:
