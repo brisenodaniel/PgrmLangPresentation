@@ -54,7 +54,9 @@ map f [] = []
 map f a:as = (f a) : as
 ```
 ## Lambda Terms
-As if Haskell wasn't mathy enough, it has a component which is almost pure lambda calculus... aptly named lambda terms:
+They're kinda like lambda calculus... but only slightly more so than Haskell as a whole in my fair opinion.
+
+Their precense, however, make Haskell much more Lambda-y... since they re-enforce the EVERYTHING is an expression principle.
 
 ```haskell
 \x -> x+1
@@ -63,6 +65,7 @@ Why would we want this? Observe:
 ```haskell
 map (\x -> (x + 90)/2) [20,30,40,50,60,70,80,90]
 ```
+
 ## Type Declarations:
 In Haskell, we are free to define our own Types
 
