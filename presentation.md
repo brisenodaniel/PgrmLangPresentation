@@ -59,6 +59,11 @@ They're kinda like lambda calculus... but only slightly more so than Haskell as 
 
 Their precense, however, make Haskell much more Lambda-y... since they re-enforce the EVERYTHING is an expression principle.
 
+\begin{align*}
+	x&=1\\
+	x&=x^2+2_a
+\end{align*}
+
 ```haskell
 \x -> x+1
 ```
